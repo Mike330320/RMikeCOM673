@@ -8,7 +8,8 @@ public class app
 {
     public static void main( String[] args )
     {
-    String connectionString = "Server=tcp:scom673.database.windows.net,1433;Initial Catalog=DCOM673;Persist Security Info=False;User ID={Mike};Password={Fbs@330320};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    String connectionString = "jdbc:sqlserver://scom673.database.windows.net:1433;database=DCOM673;user=Mike@scom673;password={Fbs@330320};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+
 
 	// Create the connection object
 	Connection connection = null;  
