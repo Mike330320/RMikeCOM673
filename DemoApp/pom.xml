@@ -68,12 +68,11 @@
 		</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
-	//  Added MC to access database 
-	<dependency>
+<dependency>
 	<groupId>com.microsoft.sqlserver</groupId>
 	<artifactId>mssql-jdbc</artifactId>
 	<version>6.4.0.jre8</version>
-	</dependency>
+</dependency>
 		
 	</dependencies>
 
