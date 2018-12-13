@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 
-public class App 
+public class app 
 {
     public static void main( String[] args )
     {
